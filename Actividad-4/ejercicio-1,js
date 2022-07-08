@@ -1,0 +1,17 @@
+// Estructuras de control WHILR
+
+var numero = 0;
+var contador = 0;
+
+numero = Number(prompt("Ingresa un numero"));
+
+while (numero > contador) {
+    
+    contador++;
+    
+    if (contador % 5 == 0){
+        console.log( contador );  
+    }
+    
+}
+   

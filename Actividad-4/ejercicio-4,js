@@ -1,0 +1,20 @@
+// Numeros del 1 al 100 
+let datos = 100;
+let rangoInicial = Number(prompt("Ingresa el rango inicial"));
+let rangoFinal = Number(prompt("Ingresa el rango final"));
+
+var sumRangos = rangoFinal - rangoInicial;
+
+if (sumRangos == 10){
+
+for (let i = 1; i <= datos; i++) {
+
+    if (i >= rangoInicial && i <= rangoFinal ){
+        console.log("Eliminado: " + i );
+        continue;
+    }
+    console.log(i);
+    }
+} else {
+console.log("Ingresa un rango de 10 numeros solamente");
+}
