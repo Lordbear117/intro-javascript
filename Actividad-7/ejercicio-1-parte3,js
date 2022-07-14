@@ -1,0 +1,50 @@
+
+    const multiply = (num1, num2) => {
+        const multiplyTwo = (num2) => {
+            return num1 * num2
+        }
+        if (!num2){
+            return multiplyTwo
+        }
+        return num1 * num2
+    }
+
+    let num1 = multiply(3,5);
+    console.log(num1);
+
+
+
+    
+// var a = 0;
+// var b = 0;
+
+// function multiply(a,b){
+
+//     var num1 = a;
+//     var num2 = b;
+
+//     var multi = num1 * num2;
+    
+//     if (isNaN(multi) == true){
+//         return multi;
+
+//     } else {
+//         secondMultiply(num1,num2);
+//     }
+// }
+
+// function secondMultiply(num1, num2){
+//            if (num1 == 0){
+//             num1 = prompt("Ingresa un numero para multiplicar por: " + num2 );
+//            } else if (num2 == 0){
+//             num2 = prompt("Ingresa un numero para multiplicar por: " + num1 );
+//            }
+
+//            return num1 * num2;
+// }
+
+
+// a = prompt("Ingresa un numero para multiplicar" )
+// b = prompt("Ingresa un numero para multiplicar" )
+
+// multiply(a,b);
