@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="bg-transformers bg-warning">
+        <div class="container">
+            <div class="row bg-secondary">
+                <div class="col-6">
+                    <div class="d-flex align-items-center h-100">
+                        <h4 class="mb-0 text-white">Buscador JS</h4>
+                    </div>
+                    
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link text-white active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center pt-5">Buscador JS</h1>
+                    <div class="card my-5 p-4">
+                        <form id="form-busqueda">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputName">Nombre</label>
+                                    <input type="text" class="form-control" 
+                                    placeholder="First name" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <label for="inpuModel">Modelo</label>
+                                    <select type="text" class="form-select">
+                                    <option value selected>Choose...</option>
+                                    <option value="decepticon">Decepticon</option>
+                                    <option value="autobot">Autobot</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label for="inpuModel">Peliculas</label>
+                                    <select type="text" class="form-select">
+                                    <option value selected>Choose...</option>
+                                    <option value="decepticon">Decepticon</option>
+                                    <option value="autobot">Autobot</option>
+                                    </select>
+                                </div>
+                                <!-- flex y align item para que se aline el boton con los select -->
+                                <div class="col d-flex align-items-end">
+                                    <button type="submit" class="btn btn-success w-100">Buscar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            </header>
+
+            <main class="bg-dark text-white py-5">
+                <div class="container">
+                    <div id="box-transformers" class="row row-cols-2">
+                        <div class="col mb-3">
+                            <div class="card bg-secondary flex-row">
+                                <div class="w-50">
+                                    <img src="./621.jpeg" class="img-fluid object-fit" alt="">
+                                </div>
+                                <div class="card-body w-50">
+                                    <h2 class="card-title">Optimus Prime</h2>
+                                    <p>Optimus Prime</p>
+                                    <p>Primera Aparicion: Transformers</p>
+                                    <p>Descripcion:</p>
+                                    <p>Se trata de una pelicula que estreno en 20001 etc...
+                                        etc etc </p>
+                                </div>
+                            </div>                 
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card bg-secondary flex-row">
+                                <div class="w-50">
+                                    <img src="./621.jpeg" class="img-fluid object-fit" alt="">
+                                </div>
+                                <div class="card-body w-50">
+                                    <h2 class="card-title">Optimus Prime</h2>
+                                    <p>Optimus Prime</p>
+                                    <p>Primera Aparicion: Transformers</p>
+                                    <p>Descripcion:</p>
+                                    <p>Se trata de una pelicula que estreno en 20001 etc...</p>
+                                </div>
+                            </div>                 
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card bg-secondary flex-row">
+                                <div class="w-50">
+                                    <img src="./621.jpeg" class="img-fluid object-fit" alt="">
+                                </div>
+                                <div class="card-body w-50">
+                                    <h2 class="card-title">Optimus Prime</h2>
+                                    <p>Optimus Prime</p>
+                                    <p>Primera Aparicion: Transformers</p>
+                                    <p>Descripcion:</p>
+                                    <p>Se trata de una pelicula que estreno en 20001 etc...
+                                        etc etc </p>
+                                </div>
+                            </div>                 
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            
+            </body>
+
+            <script src=""></script>
+            
+            </html>
